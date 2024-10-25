@@ -1,5 +1,7 @@
 # See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-patterns
 
+a="[0-9a-f]+"
+
 # Automatically suggested patterns
 
 # hit-count: 37 file-count: 3
