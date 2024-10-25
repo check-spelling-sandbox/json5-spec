@@ -70,7 +70,7 @@ Search.prototype.triggerSearch = function (e) {
 // bit 12 - Set if the result starts with searchString
 // bits 8-11: 8 - number of chunks multiplied by 2 if cases match, otherwise 1.
 // bits 1-7: 127 - length of the entry
-// General scheme: prefer case sensitive matches with fewer chunks, and otherwise
+// General scheme: prefer case-sensitive matches with fewer chunks, and otherwise
 // prefer shorter matches.
 function relevance(result, searchString) {
   var relevance = 0;
